@@ -20,3 +20,4 @@ const unwatch = client.watchBlocks({
 });
 
 process.on("SIGINT", () => { unwatch(); process.exit(0); });
+
