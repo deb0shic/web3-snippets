@@ -13,3 +13,4 @@ Files:
 - `03-permit2.ts` — signing a `PermitSingle` for the Permit2 contract.
 
 Which one to reach for depends on the token: USDC has native permit, so option 2 works and is cheapest. WETH does not, so you either eat the extra approve tx or route through Permit2.
+
