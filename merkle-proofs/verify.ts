@@ -32,3 +32,4 @@ export function verify(
 // const root = "0x…";
 // const proof = ["0x…", "0x…"];
 // verify(root, "0xabc…", 1_000_000n, proof);
+
