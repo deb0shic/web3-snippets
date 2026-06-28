@@ -9,3 +9,4 @@ Files:
 
 - `personal-sign.ts` — SIWE-style login flow: nonce challenge, sign, verify.
 - `typed-data.ts`     — sign an EIP-712 message and verify it locally.
+
