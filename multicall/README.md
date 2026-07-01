@@ -8,3 +8,4 @@ Files:
 - `batch-with-failures.ts` — using `aggregate3` so per-call failures do not tank the whole batch.
 
 Under the hood viem's public client already batches calls when you enable `batch: true` on the transport, but doing it explicitly via Multicall3 works with any provider and lets you mix functions across contracts.
+
