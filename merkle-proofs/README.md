@@ -8,3 +8,4 @@ Files:
 - `verify.ts` — verifies a proof against a root, mimicking what an on-chain `MerkleDistributor` checks.
 
 Typical use: airdrops, allowlists, batched refunds — anywhere you want to commit to a large set of `(who, how much)` pairs with one 32-byte root.
+
